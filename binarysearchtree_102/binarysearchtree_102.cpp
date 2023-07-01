@@ -22,3 +22,12 @@ public:
 };
 
 class BinaryTree		//class binarytree
+{
+public:
+	Node* ROOT;		//node root
+
+	BinaryTree()
+	{
+		ROOT = NULL; 
+	}
+};
