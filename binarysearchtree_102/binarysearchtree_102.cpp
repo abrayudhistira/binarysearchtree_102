@@ -5,9 +5,12 @@
 #include <string>
 using namespace std;
 
-class Node
+class Node		// class node
 {
 public:
 	string info;
-	Node*
+	Node* leftchild;		//
+	Node* rightchild;
+
+	
 };
