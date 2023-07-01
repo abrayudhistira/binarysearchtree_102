@@ -12,5 +12,13 @@ public:
 	Node* leftchild;		//membuat node leftchild
 	Node* rightchild;		//membuat node rightchild
 
+	// constuctor for the node class
+	Node(string i, Node* l, Node* r)
+	{
+		info = i;
+		leftchild = l;
+		rightchild = r;
+	}
+
 	
 };
