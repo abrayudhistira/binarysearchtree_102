@@ -1,6 +1,3 @@
-// binarysearchtree_102.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include <string>
 using namespace std;
@@ -45,6 +42,7 @@ public:
 		if (parent == NULL) // if the parent is NULL (Tree is empty)
 		{
 			ROOT = newNode; //mark the new node as ROOT
+			return; // Exit
 		}
 	}
 };
