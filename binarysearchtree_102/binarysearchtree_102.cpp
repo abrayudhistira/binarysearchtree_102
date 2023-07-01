@@ -10,7 +10,7 @@ class Node		// class node
 public:
 	string info;
 	Node* leftchild;		//membuat node leftchild
-	Node* rightchild;
+	Node* rightchild;		//membuat node rightchild
 
 	
 };
