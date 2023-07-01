@@ -56,7 +56,7 @@ public:
 
 	void search(string element, Node*& parent, Node*& currentNode) // void search
 	{
-
+		// this function searches the currentNode of the specified Ndde as well as the current Node of its parent
 	}
 
 };
