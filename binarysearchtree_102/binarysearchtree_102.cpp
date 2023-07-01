@@ -19,6 +19,6 @@ public:
 		leftchild = l;
 		rightchild = r;
 	}
-
-	
 };
+
+class BinaryTree		//class binarytree
